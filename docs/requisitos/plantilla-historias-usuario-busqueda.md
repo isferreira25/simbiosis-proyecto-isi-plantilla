@@ -3,7 +3,7 @@
 | Campo | Valor |
 | --- | --- |
 | Proyecto | Proyecto Simbiosis |
-| Fecha | [dd/mm/aaaa] |
+| Fecha | [27/10/2007] |
 | Versión | [Versión de trabajo] |
 | Estado | Borrador |
 
@@ -15,7 +15,8 @@
 
 ## Épica de búsqueda
 
-Como [rol], quiero [capacidad amplia], para [beneficio].
+Como usuario, quiero poder realizar una busqueda por palabras o ingredientes para poder encontrar recetas.
+
 
 **Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
 
@@ -25,16 +26,16 @@ Como [rol], quiero [capacidad amplia], para [beneficio].
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** realizar busqueda por palabras
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario, quiero realizar busquedas con palabras, para encontrar recetas.
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que la receta contenga la palabra clave, cuando el usuario la busque, entonces el sistema mostrará las recetas que la contengan.
+- **CA-02.** Dado que la receta tenga el ingrediente clave, cuando el usuario lo busque, entonces el sistema mostrará las recetas con esos ingredientes.
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-02
